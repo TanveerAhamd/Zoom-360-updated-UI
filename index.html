@@ -1,0 +1,2042 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <title>Zoom 360 Engineering | Premier Construction & HVAC Solutions</title>
+    <meta name="description"
+        content="Zoom-360 Engineering is a PEC, FBR, and SECP registered firm specializing in Architectural, Civil, and HVAC solutions in Pakistan. Building excellence with integrity.">
+    <meta name="keywords"
+        content="Zoom 360 Engineering, Construction Company Pakistan, HVAC Services, Architectural Design, Civil Engineering Lahore">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="robots" content="index, follow" />
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Zoom 360 Engineering | Building Your Dreams">
+    <meta property="og:description"
+        content="Professional Engineering & Construction services registered with PEC, FBR & SECP.">
+    <meta property="og:image" content="img/favicon.png">
+    <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon" />
+
+    <link rel="stylesheet" href="css/font-icons.css">
+    <link rel="stylesheet" href="css/plugins.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <style>
+        /* --- Ticker Animation --- */
+        @keyframes ticker {
+            0% {
+                transform: translate3d(0, 0, 0);
+            }
+
+            100% {
+                transform: translate3d(-50%, 0, 0);
+            }
+        }
+
+        .hmove {
+            display: flex;
+            width: max-content;
+            animation: ticker 30s linear infinite;
+        }
+
+        .hitem {
+            display: inline-block;
+            padding: 0 30px;
+        }
+
+        .hmove:hover {
+            animation-play-state: paused;
+        }
+
+        /* --- Header Sticky Styles --- */
+        .zoom-brand-text,
+        .zoom-brand-subtext {
+            color: #ffffff !important;
+            transition: all 0.3s ease;
+            margin: 0;
+            text-transform: uppercase;
+        }
+
+        /* Scroll hone par colors change honge */
+        .sticky-active .zoom-brand-text,
+        .sticky-active .zoom-brand-subtext {
+            color: #000000 !important;
+        }
+
+        .zoom-brand-subtext {
+            font-size: 14px;
+            letter-spacing: 2px;
+            font-weight: 600;
+        }
+
+        .sticky-active .site-logo img {
+            height: 60px !important;
+            transition: all 0.3s ease;
+        }
+
+        /* --- Team/Service Cards Styling --- */
+        .zoom360-team-card {
+            position: relative;
+            border-radius: 10px;
+            transition: all 0.3s ease;
+            overflow: hidden;
+            background: #fff;
+        }
+
+        .zoom360-team-card:hover {
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+        }
+
+        .zoom360-team-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 4px;
+            background-color: #fe5a0e;
+            transition: width 0.5s ease-in-out;
+        }
+
+        .zoom360-team-card:hover::after {
+            width: 100%;
+        }
+
+        .zoom360-team-card img {
+            width: 120px;
+            height: 120px;
+            object-fit: cover;
+            border-radius: 50%;
+            border: 3px solid #eee;
+            margin: 0 auto;
+            display: block;
+        }
+
+        .zoom360-team-card h4 {
+            font-size: 20px;
+            font-weight: 700;
+            margin-top: 15px;
+        }
+
+        .designation {
+            color: #fe5a0e;
+            font-size: 13px;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            font-weight: 600;
+        }
+    </style>
+    <style>
+        .partner-logo {
+            height: 70px !important;
+            object-fit: contain;
+            margin: 0 auto;
+            display: block;
+            /* filter: grayscale(100%); */
+            transition: all 0.4s ease;
+            /* Transition ko behtar kiya */
+            cursor: pointer;
+        }
+
+        /* Hover par color bhi aaye aur scale bhi ho */
+        .partner-logo:hover {
+            /* filter: grayscale(0%); */
+            transform: scale(1.15);
+            /* Logo thora bara hoga */
+        }
+
+        .slick-prev,
+        .slick-next {
+            display: none !important;
+        }
+
+        /* Smooth transition ke liye class */
+        .slick-track {
+            display: flex !important;
+            align-items: center !important;
+        }
+    </style>
+    <style>
+        /* Screen ke relative bottom-right mein set karne ke liye */
+        .whatsapp-fixed {
+            position: fixed;
+            /* Ye screen ke relative rakhta hai */
+            bottom: 20px;
+            /* Screen ke niche se gap */
+            right: 20px;
+            /* Screen ke right se gap */
+            z-index: 99999;
+            /* Sab cheezon se upar */
+            line-height: 0;
+            display: block;
+        }
+
+        /* SVG ka size aur color */
+        .whatsapp-fixed svg {
+            width: 60px;
+            height: 60px;
+            fill: #25d366;
+            /* WhatsApp Green */
+            filter: drop-shadow(2px 4px 6px rgba(0, 0, 0, 0.3));
+            transition: transform 0.3s ease;
+        }
+
+        .whatsapp-fixed:hover svg {
+            transform: scale(1.1);
+            /* Hover par halka sa bara hoga */
+        }
+
+        /* Mobile ke liye size thora chota */
+        @media (max-width: 768px) {
+            .whatsapp-fixed svg {
+                width: 50px;
+                height: 50px;
+            }
+        }
+    </style>
+
+
+    <style>
+        /* 1. Common Styles for Both Buttons */
+        .float-btn {
+            position: fixed;
+            right: 20px;
+            width: 40px;
+            height: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 4px;
+            /* Professional Square-ish look */
+            z-index: 9999;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* 2. WhatsApp Button Specific */
+        .whatsapp-btn {
+            bottom: 50px;
+            /* Sab se niche */
+            background-color: transparent;
+            /* Background hata diya sirf logo dikhega */
+        }
+
+        .whatsapp-btn svg {
+            width: 40px;
+            height: 40px;
+            fill: #25d366;
+            filter: drop-shadow(1px 2px 4px rgba(0, 0, 0, 0.2));
+        }
+
+        /* 3. Back to Top Button Specific */
+        #back-to-top {
+            bottom: 100px;
+            /* WhatsApp ke thora upar (20+40+10) */
+            background-color: #fe5a0e;
+            /* Aapka Orange Color */
+            opacity: 0;
+            visibility: hidden;
+        }
+
+        #back-to-top.show {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        #back-to-top svg {
+            width: 24px;
+            height: 24px;
+            fill: white;
+        }
+
+        /* Hover Effects */
+        .float-btn:hover {
+            transform: translateY(-5px);
+        }
+
+        #back-to-top:hover {
+            background-color: #071c1f;
+            /* Zoom 360 Dark Theme Color */
+        }
+    </style>
+
+    <style>
+        .zoom-premium-card {
+            background: #ffffff;
+            padding: 30px 20px;
+            border-radius: 12px;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+            min-height: 240px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            border: 1px solid #f0f0f0;
+        }
+
+        /* Left to Right Border Animation */
+        .zoom-premium-card::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 0;
+            height: 4px;
+            background: #fe5a0e;
+            transition: width 0.4s ease-in-out;
+        }
+
+        .zoom-premium-card:hover::after {
+            width: 100%;
+        }
+
+        .card-icon-circle {
+            width: 70px;
+            height: 70px;
+            background: #fffbf2;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 20px;
+            transition: 0.3s;
+            border: 1px solid #fff1d6;
+        }
+
+        /* Icon Color Control */
+        .card-icon-circle svg {
+            width: 32px;
+            height: 32px;
+            fill: #fe5a0e;
+            /* Original color */
+            transition: 0.3s;
+        }
+
+        .zoom-premium-card:hover .card-icon-circle {
+            background: #fe5a0e;
+            border-color: #fe5a0e;
+        }
+
+        .zoom-premium-card:hover .card-icon-circle svg {
+            fill: #ffffff;
+            /* Hover color */
+        }
+
+        .zoom-premium-card h3 {
+            font-size: 19px;
+            font-weight: 700;
+            color: #071c1f;
+            margin-bottom: 12px;
+        }
+
+        .zoom-premium-card p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.7;
+            margin: 0;
+        }
+
+        .zoom-premium-card a {
+            color: inherit;
+            text-decoration: none;
+            transition: 0.3s;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .zoom-premium-card a:hover {
+            color: #fe5a0e;
+        }
+
+        .small-svg {
+            width: 16px;
+            height: 16px;
+            fill: currentColor;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <!-- Body main wrapper start -->
+    <div class="body-wrapper">
+
+        <!-- HEADER AREA START (header-5) -->
+        <header
+            class="ltn__header-area ltn__header-5 ltn__header-logo-and-mobile-menu-in-mobile ltn__header-logo-and-mobile-menu ltn__header-transparent gradient-color-2">
+            <!-- ltn__header-top-area start -->
+            <div class="ltn__header-top-area top-area-color-white ">
+                <div class="topbar container-fluid p-0"
+                    style="background-color: #fe5a0e; display: flex; flex-wrap: wrap; align-items: center;">
+
+                    <div
+                        class="topbar-left col-lg-3  d-flex align-items-center justify-content-center justify-content-lg-center py-2 px-4">
+                        <div class="info-container text-white" style="font-weight: 500;">
+                            <!-- <span class="info-item d-none d-md-inline-block mr-3">
+                                <i class="fa-solid fa-clock"></i> Mon-Sat, 8.00–4.00
+                            </span> -->
+                            <span class="info-item">
+                                <i class="fa-solid fa-phone text-white"></i>
+                                <a href="tel:+923260078800" class="uan-link text-white text-center"
+                                    style="text-decoration: none; font-weight: 600;">
+                                    UAN: +92 326 007 88 00
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="topbar-right col-lg-9"
+                        style="background-color: #ffffff; color: #000000; font-weight: 500; overflow: hidden; height: 45px; display: flex; align-items: center;">
+
+                        <div class="hmove" style="display: flex; white-space: nowrap;">
+
+                            <div class="hitem px-4"><i class="fas fa-phone-alt"></i> Official UAN: +92 326 007 88 00
+                            </div>
+                            <div class="hitem px-4"><i class="fas fa-clock"></i> Timings: Mon-Fri: 8:00 AM – 5:00 PM
+                            </div>
+                            <div class="hitem px-4"><i class="fas fa-envelope"></i> info@zoom-360-engineering.com</div>
+
+                            <div class="hitem px-4"><i class="fas fa-home"></i> Residential, Commercial & Industrial
+                                Projects</div>
+                            <div class="hitem px-4"><i class="fas fa-drafting-compass"></i> Expert Architectural &
+                                Structural Solutions</div>
+                            <div class="hitem px-4"><i class="fas fa-snowflake"></i> Professional HVAC & Mechanical
+                                Engineering</div>
+
+                            <div class="hitem px-4"><i class="fas fa-check-circle"></i> Registered with PEC, FBR & SECP
+                            </div>
+                            <div class="hitem px-4"><i class="fas fa-video"></i> Live Project Tracking for Clients</div>
+                            <div class="hitem px-4"><i class="fas fa-user-shield"></i> Quality Control Under Experienced
+                                Supervision</div>
+
+                            <div class="hitem px-4"><i class="fas fa-phone-alt"></i> UAN: +92 326 007 88 00</div>
+                            <div class="hitem px-4"><i class="fas fa-star"></i> 100% Customer Satisfaction Guaranteed
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ltn__header-top-area end -->
+
+            <!-- ltn__header-middle-area start -->
+            <div class="ltn__header-middle-area ltn__header-sticky ltn__sticky-bg-white">
+                <div class="container">
+                    <div class="row">
+                        <div class="col">
+                            <div class="site-logo-wrap">
+                                <div class="site-logo">
+                                    <a href="index.html"><img style="height: 60px;" src="img/Zoom Logo.png"
+                                            alt="Logo"></a>
+                                </div>
+                                <div class="get-support clearfix mt-1">
+                                    <div class="get-support-info">
+                                        <a href="index.html">
+                                            <h4 class="zoom-brand-text">ZOOM-360</h4>
+                                            <h5 class="zoom-brand-subtext text-center">Engineering</h5>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col header-menu-column menu-color-white">
+                            <div class="header-menu d-none d-xl-block">
+                                <nav>
+                                    <div class="ltn__main-menu">
+                                        <ul>
+                                            <li class="menu-icon"><a href="#">Home</a></li>
+
+                                            <li class="menu-icon"><a href="#about">Company</a>
+                                                <ul>
+                                                    <li><a href="#about">About Us</a></li>
+                                                    <li><a href="#ceo_message">CEO Message</a></li>
+                                                </ul>
+                                            </li>
+
+                                            <li class="menu-icon"><a href="#services">Services</a>
+                                                <ul>
+                                                    <li><a href="#services"
+                                                            onclick="activateTab('tab_arch')">Architectural Solution</a>
+                                                    </li>
+                                                    <li><a href="#services" onclick="activateTab('tab_civil')">Civil
+                                                            Engineering Solution</a></li>
+                                                    <li><a href="#services" onclick="activateTab('tab_mech')">Mechanical
+                                                            Engineering Solutions</a></li>
+                                                    <li><a href="#services" onclick="activateTab('tab_hvac')">HVAC</a>
+                                                    </li>
+                                                    <li><a href="#services" onclick="activateTab('tab_elec')">Electrical
+                                                            Engineering Solutions</a></li>
+                                                </ul>
+                                            </li>
+                                            </li>
+
+                                            <li><a href="socialFeed.html">Social Media</a></li>
+
+                                            <li><a href="#location">Our Location</a></li>
+
+                                            <li><a href="#faq">FAQs</a></li>
+
+                                            <li class="special-link">
+                                                <a href="https://team.zoom-360-engineering.com">Client Portal</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col--- ltn__header-options ltn__header-options-2 ">
+                            <!-- Mobile Menu Button -->
+                            <div class="mobile-menu-toggle d-xl-none">
+                                <a href="#ltn__utilize-mobile-menu" class="ltn__utilize-toggle">
+                                    <svg viewBox="0 0 800 600">
+                                        <path
+                                            d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200"
+                                            id="top"></path>
+                                        <path d="M300,320 L540,320" id="middle"></path>
+                                        <path
+                                            d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190"
+                                            id="bottom"
+                                            transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- ltn__header-middle-area end -->
+
+        </header>
+
+        <!-- HEADER AREA END -->
+
+
+        <!-- Utilize Mobile Menu Start -->
+        <div id="ltn__utilize-mobile-menu" class="ltn__utilize ltn__utilize-mobile-menu">
+            <div class="ltn__utilize-menu-inner ltn__scrollbar">
+                <div class="ltn__utilize-menu-head">
+                    <div class="site-logo">
+                        <a href="index.html"><img style="height: 60px;" src="img/Zoom Logo.png" alt="Logo"></a>
+                    </div>
+                    <button class="ltn__utilize-close">×</button>
+                </div>
+
+                <div class="ltn__utilize-menu">
+                    <ul>
+                        <li><a href="#">Home</a></li>
+
+                        <li><a href="#about">Company</a>
+                            <ul class="sub-menu">
+                                <li><a href="#about">About Us</a></li>
+                                <li><a href="#ceo_message">CEO Message</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#services">Services</a>
+                            <ul class="sub-menu">
+                                <li><a href="#services" onclick="activateTab('tab_arch')">Architectural Solution</a>
+                                </li>
+                                <li><a href="#services" onclick="activateTab('tab_civil')">Civil Engineering
+                                        Solution</a></li>
+                                <li><a href="#services" onclick="activateTab('tab_mech')">Mechanical Engineering
+                                        Solutions</a></li>
+                                <li><a href="#services" onclick="activateTab('tab_hvac')">HVAC</a></li>
+                                <li><a href="#services" onclick="activateTab('tab_elec')">Electrical Engineering
+                                        Solutions</a></li>
+                            </ul>
+                        </li>
+
+                        <li><a href="#social">Social Media</a></li>
+                        <li><a href="#location">Our Location</a></li>
+                        <li><a href="#faq">FAQs</a></li>
+                        <li><a href="#quote">Contact</a></li>
+
+                        <li class="special-link">
+                            <a href="https://team.zoom-360-engineering.com"
+                                style="color: #ffa20e; font-weight: bold;">Client Portal</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- Utilize Mobile Menu End -->
+
+        <div class="ltn__utilize-overlay"></div>
+
+        <!-- SLIDER AREA START (slider-4) -->
+        <div class="ltn__slider-area ltn__slider-4 position-relative ltn__primary-bg fix">
+            <div
+                class="ltn__slide-one-active----- slick-slide-arrow-1----- slick-slide-dots-1----- arrow-white----- ltn__slide-animation-active">
+
+                <!-- HTML5 VIDEO -->
+                <video autoplay muted loop id="myVideo">
+                    <source src="media/3.mp4" type="video/mp4">
+                </video>
+
+
+
+                <!-- ltn__slide-item -->
+                <div class="ltn__slide-item ltn__slide-item-2 ltn__slide-item-7 bg-image--- bg-overlay-theme-black-10---"
+                    data-bs-bg="img/slider/41.jpg">
+                    <div class="ltn__slide-item-inner text-center">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-12 align-self-center">
+                                    <div class="slide-item-info">
+                                        <div class="slide-item-info-inner ltn__slide-animation">
+                                            <h6 class="slide-sub-title white-color animated">
+                                                <span><i class="fas fa-building"></i></span> -- Pakistan's Leading
+                                                Construction Company
+                                            </h6>
+                                            <h1 class="slide-title  white-color animated">
+                                                Building Your Dream <br> Home With Us
+                                            </h1>
+                                            <div class="btn-wrapper animated d-inline-block p-3"
+                                                style="background-color: #fe5a0e;  border-radius: px; margin-top:20px; transition: 0.3s;"
+                                                onmouseover="this.style.backgroundColor='white'; this.querySelector('a').style.color='black';"
+                                                onmouseout="this.style.backgroundColor='#fe5a0e'; this.querySelector('a').style.color='white';">
+                                                <a href="#quote"
+                                                    style="color: white; text-decoration: none; font-weight: bold; transition: 0.3s;">
+                                                    Request Free Quote Now!
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- SLIDER AREA END -->
+        <!-- our trusted section start -->
+        <div class="ltn__brand-logo-area pt-30 pb-30" style="background: #f9f9f9;">
+            <div class="container">
+                <div class="row" id="trusted-partner-slider">
+                    <div class="col-lg-12"><img src="img/multandha.png" alt="PEC" class="partner-logo"></div>
+                    <div class="col-lg-12"><img src="img/fbr-Logo.png" alt="PEC" class="partner-logo"></div>
+                    <div class="col-lg-12"><img src="img/dha_jugranwala.jpg" alt="FBR" class="partner-logo"></div>
+                    <div class="col-lg-12"><img src="img/dha_quetta.png" alt="SECP" class="partner-logo"></div>
+                    <div class="col-lg-12"><img src="img/DHA-Bahawalpur-Logo.jpg" alt="Bank" class="partner-logo"></div>
+                    <div class="col-lg-12"><img src="img/PEC_LOGO.png" alt="Bank" class="partner-logo"></div>
+                    <div class="col-lg-12"><img src="img/dhaisbrwp.jpg" alt="Bank" class="partner-logo"></div>
+                    <div class="col-lg-12"><img src="img/dhakarachi.png" alt="PEC" class="partner-logo"></div>
+                    <div class="col-lg-12"><img src="img/secp_logo.png" alt="FBR" class="partner-logo"></div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- our trusted section end -->
+        <!-- ABOUT Company Start -->
+
+        <div class="ltn__about-us-area pt-50 pb-20" id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="about-us-img-wrap about-img-left">
+                            <img src="img/others/7.png" alt="Zoom-360 Project">
+                            <div class="about-us-img-info about-us-img-info-2 about-us-img-info-3">
+                                <div class="ltn__video-img ltn__animation-pulse1">
+                                    <img src="img/others/8.png" alt="Video Background">
+                                    <a class="ltn__video-icon-2"
+                                        href="https://www.youtube.com/embed/6yBNeHbVb90?autoplay=1"
+                                        data-rel="lightcase:myCollection">
+                                        <i class="fa fa-play"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-center">
+                        <div class="about-us-info-wrap">
+                            <div class="section-title-area mb-20">
+                                <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">About Our Company
+                                </h6>
+                                <h1 class="section-title">Leading Excellence in Engineering Solutions<span>.</span></h1>
+                                <p>Zoom-360 Engineering is a PEC, FBR, and SECP registered firm, providing top-tier
+                                    Architectural, Civil, and HVAC solutions across Pakistan.</p>
+                            </div>
+
+                            <ul class="ltn__list-item-1 ltn__list-item-1-before clearfix">
+                                <li>Expert Architectural Planning & 3D Modeling</li>
+                                <li>High-Standard Civil & Industrial Construction</li>
+                                <li>Advanced HVAC & Mechanical System Design</li>
+                                <li>Complete Electrical & MEP Project Management</li>
+                            </ul>
+
+                            <ul class="ltn__list-item-half clearfix mb-30">
+                                <li><i class="flaticon-home-2"></i> Smart Engineering</li>
+                                <li><i class="flaticon-secure"></i> PEC Registered</li>
+                                <li><i class="flaticon-operator"></i> 24/7 Client Support</li>
+                                <li><i class="flaticon-mountain"></i> Expert Supervision</li>
+                            </ul>
+
+                            <!-- <div class="btn-wrapper">
+                                <a href="about-us.php" class="theme-btn-1 btn btn-effect-1">Read Full Story</a>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ABOUT Company END -->
+        <!-- SERVICE AREA START -->
+        <div class="ltn__service-area section-bg-1  pt-50 pb-20" id="services">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-area text-center mb-50">
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color"
+                                style="color: #fe5a0e; font-weight:700;">Our Expertise</h6>
+                            <h1 class="section-title">Specialized Engineering Services</h1>
+                        </div>
+
+                        <div class="ltn__tab-menu ltn__tab-menu-2 d-flex justify-content-center mb-50">
+                            <div class="nav" style="flex-wrap: wrap; justify-content: center; gap: 10px;">
+                                <a class="active show" data-bs-toggle="tab" href="#tab_arch"
+                                    style="font-weight:700;">Architectural</a>
+                                <a data-bs-toggle="tab" href="#tab_civil" style="font-weight:700;">Civil Engineering</a>
+                                <a data-bs-toggle="tab" href="#tab_mech" style="font-weight:700;">Mechanical</a>
+                                <a data-bs-toggle="tab" href="#tab_hvac" style="font-weight:700;">HVAC Solutions</a>
+                                <a data-bs-toggle="tab" href="#tab_elec" style="font-weight:700;">Electrical</a>
+                            </div>
+                        </div>
+
+                        <div class="tab-content shadow-lg p-lg-5 p-4 bg-white"
+                            style="border-radius: 20px; border-bottom: 6px solid #fe5a0e;">
+
+                            <div class="tab-pane fade active show" id="tab_arch">
+                                <div class="text__block mb-40 border-start ps-4"
+                                    style="border-left: 5px solid #fe5a0e !important;">
+                                    <h3 style="color: #333; font-weight: 800;">Architectural Solutions</h3>
+                                    <p style="font-size: 16px; line-height: 1.8;">We turn your ideas into beautiful,
+                                        comfortable, and practical spaces. From the first design to the final plan, we
+                                        focus on quality, modern style, and smart use of space for houses, offices, and
+                                        industrial projects.</p>
+                                </div>
+                                <div class="row gy-4">
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-map-marked-alt"></i></div>
+                                            <h5 style="font-weight:700;">Residential Maps</h5>
+                                            <ul class="list-unstyled mt-3 text-start" style="font-size:14px;">
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i> 2D &
+                                                    3D Drawings</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i> 3D
+                                                    Animation</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Visualization</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-pencil-ruler"></i></div>
+                                            <h5 style="font-weight:700;">Structural</h5>
+                                            <ul class="list-unstyled mt-3 text-start" style="font-size:14px;">
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Structural Drawings</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Working Drawings</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i> MEP
+                                                    Drawings</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-couch"></i></div>
+                                            <h5 style="font-weight:700;">Interior Designs</h5>
+                                            <ul class="list-unstyled mt-3 text-start" style="font-size:14px;">
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Interior & Landscape</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i> 3D
+                                                    Animation</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-3 col-md-6">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-city"></i></div>
+                                            <h5 style="font-weight:700;">Town Planning</h5>
+                                            <ul class="list-unstyled mt-3 text-start" style="font-size:14px;">
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Complete Planning</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Infrastructure</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab_civil">
+                                <div class="text__block mb-40 border-start ps-4"
+                                    style="border-left: 5px solid #fe5a0e !important;">
+                                    <h3 style="color: #333; font-weight: 800;">Civil Engineering Overview</h3>
+                                    <p style="font-size: 16px;">We provide quality civil engineering services for
+                                        residential, commercial, and industrial projects. Our focus is on safe, durable,
+                                        and cost-effective construction with reliable project management.</p>
+                                </div>
+                                <div class="row gy-4">
+                                    <div class="col-md-3">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-file-invoice-dollar"></i></div>
+                                            <h5 style="font-weight:700;">Estimation</h5>
+                                            <ul class="list-unstyled mt-3 text-start" style="font-size:13px;">
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Project Planning</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Quantity Surveying</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i> BOQ
+                                                    Preparation</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-building"></i></div>
+                                            <h5 style="font-weight:700;">Construction</h5>
+                                            <ul class="list-unstyled mt-3 text-start" style="font-size:13px;">
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Residential & Commercial</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Industrial Projects</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-chess"></i></div>
+                                            <h5 style="font-weight:700;">Strategy</h5>
+                                            <p class="small text-start mt-3">Free consultancy to get cost effective and
+                                                time saving solutions.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-3">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-sync"></i></div>
+                                            <h5 style="font-weight:700;">Tracking</h5>
+                                            <p class="small text-start mt-3">Online Project tracking and scheduled
+                                                meeting sessions.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab_mech">
+                                <div class="text__block mb-40 border-start ps-4"
+                                    style="border-left: 5px solid #fe5a0e !important;">
+                                    <h3 style="color: #333; font-weight: 800;">Mechanical Solutions</h3>
+                                    <p style="font-size: 16px;">We are Providing Complete MEP Solutions for Residential,
+                                        Commercial, Industrial and Town Development Projects under expert supervision.
+                                    </p>
+                                </div>
+                                <div class="row gy-4">
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-cogs"></i></div>
+                                            <h5 style="font-weight:700;">MEP Solutions</h5>
+                                            <ul class="list-unstyled mt-3 text-start" style="font-size:13px;">
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i> Town
+                                                    Development</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Industrial MEP</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-chart-bar"></i></div>
+                                            <h5 style="font-weight:700;">Project Tracking</h5>
+                                            <p class="small text-start mt-3">Scheduled meeting sessions and online
+                                                progress tracking.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-thumbs-up"></i></div>
+                                            <h5 style="font-weight:700;">100% Guarantee</h5>
+                                            <p class="small text-start mt-3">Supervision of highly experienced
+                                                individuals for best output.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab_hvac">
+                                <div class="text__block mb-40 border-start ps-4"
+                                    style="border-left: 5px solid #fe5a0e !important;">
+                                    <h3 style="color: #333; font-weight: 800;">HVAC Overview</h3>
+                                    <p style="font-size: 16px;">We provide an integrated service package to help you
+                                        utilize the resources at the minimum possible cost, ensuring a sustainable
+                                        future.</p>
+                                </div>
+                                <div class="row gy-4">
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-wind"></i></div>
+                                            <h5 style="font-weight:700;">Product Strategy</h5>
+                                            <p class="small text-start mt-3">Free consultancy for cost effective and
+                                                time saving solutions.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-desktop"></i></div>
+                                            <h5 style="font-weight:700;">Tracking</h5>
+                                            <p class="small text-start mt-3">Online Project tracking to keep you posted
+                                                at every stage.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-shield-alt"></i></div>
+                                            <h5 style="font-weight:700;">Satisfaction</h5>
+                                            <p class="small text-start mt-3">Guaranteed output till your satisfaction
+                                                under expert care.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="tab-pane fade" id="tab_elec">
+                                <div class="text__block mb-40 border-start ps-4"
+                                    style="border-left: 5px solid #fe5a0e !important;">
+                                    <h3 style="color: #333; font-weight: 800;">Electrical Solutions</h3>
+                                    <p style="font-size: 16px;">Complete Electrical Construction services for
+                                        Residential, Commercial, and Industrial Projects with 100% satisfaction
+                                        guarantee.</p>
+                                </div>
+                                <div class="row gy-4">
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-bolt"></i></div>
+                                            <h5 style="font-weight:700;">Construction</h5>
+                                            <ul class="list-unstyled mt-3 text-start" style="font-size:13px;">
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Industrial Projects</li>
+                                                <li><i class="fas fa-check-circle me-2" style="color:#fe5a0e;"></i>
+                                                    Commercial & Residential</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-brain"></i></div>
+                                            <h5 style="font-weight:700;">Product Strategy</h5>
+                                            <p class="small text-start mt-3">Consultancy to get yourself cost effective
+                                                solutions.</p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="fancybox-item p-4 shadow-sm h-100 text-center"
+                                            style="border: 1px solid #f0f0f0; border-radius:10px; border-top: 3px solid #fe5a0e;">
+                                            <div class="fancybox__icon mb-3" style="font-size: 35px; color: #fe5a0e;"><i
+                                                    class="fas fa-check-double"></i></div>
+                                            <h5 style="font-weight:700;">Tracking</h5>
+                                            <p class="small text-start mt-3">Scheduled meeting sessions to keep you
+                                                posted on progress.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- COUNTER UP AREA START -->
+        <div class="ltn__counterup-area section-bg-1 py-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 align-self-center">
+                        <div class="ltn__counterup-item text-color-white---">
+                            <div class="counter-icon">
+                                <i class="flaticon-select"></i>
+                            </div>
+                            <h1><span class="counter">560</span><span class="counterUp-icon">+</span> </h1>
+                            <h6>Completed Projects</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 align-self-center">
+                        <div class="ltn__counterup-item text-color-white---">
+                            <div class="counter-icon">
+                                <i class="flaticon-office"></i>
+                            </div>
+                            <h1><span class="counter">1.5</span><span class="counterUp-letter">M</span><span
+                                    class="counterUp-icon">+</span> </h1>
+                            <h6>Square Feet Covered</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 align-self-center">
+                        <div class="ltn__counterup-item text-color-white---">
+                            <div class="counter-icon">
+                                <i class="flaticon-excavator"></i>
+                            </div>
+                            <h1><span class="counter">268</span><span class="counterUp-icon">+</span> </h1>
+                            <h6>Construction Sites</h6>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 align-self-center">
+                        <div class="ltn__counterup-item text-color-white---">
+                            <div class="counter-icon">
+                                <i class="flaticon-armchair"></i>
+                            </div>
+                            <h1><span class="counter">98</span><span class="counterUp-icon">%</span> </h1>
+                            <h6>Client Satisfaction</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- COUNTER UP AREA END -->
+
+        <!-- ABOUT US AREA START -->
+        <div class="ltn__about-us-area  pt-50 pb-20 " id="ceo_message">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 align-self-center">
+                        <div class="about-us-info-wrap">
+                            <div class="section-title-area ltn__section-title-2--- mb-30">
+                                <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Ceo Message</h6>
+                                <h1 class="section-title">Leading the Way in Modern Engineering</h1>
+                                <p>Zoom-360 is dedicated to providing end-to-end engineering solutions. From initial
+                                    architectural mapping to final construction and MEP installations, we ensure every
+                                    project meets the highest standards of safety and innovation.</p>
+                            </div>
+
+                            <div class="ltn__callout bg-overlay-theme-05 mt-30 mb-30"
+                                style="padding: 25px; border-radius: 10px;">
+                                <div class="ceo-profile d-flex align-items-center mb-15">
+                                    <img src="img/iftikhar.jpg" alt="CEO"
+                                        style="width: 55px; height: 55px; border-radius: 50%; object-fit: cover; border: 2px solid #fe5a0e; margin-right: 15px;">
+                                    <div class="ceo-info">
+                                        <h5 class="mb-0" style="font-weight: 700;">Engr. Kashif Hussain</h5>
+                                        <small class="d-block mb-1 text-muted">Founder & CEO</small>
+                                        <a href="tel:+923260078800"
+                                            style="color: #fe5a0e; font-weight: 600; font-size: 14px;">
+                                            <i class="fas fa-phone-alt"></i> +92 326 007 88 00
+                                        </a>
+                                    </div>
+                                </div>
+                                <p style="font-style: italic; font-size: 15px; line-height: 1.6; color: #555;">
+                                    "Our mission is to redefine Pakistan's engineering landscape with innovation and
+                                    integrity. Your vision is our blueprint for excellence."
+                                </p>
+                            </div>
+                            <ul class="ltn__list-item-2 ltn__list-item-2-before ltn__flat-info">
+                                <li><span>15+ <i class="fas fa-briefcase"></i></span>
+                                    Years Exp.
+                                </li>
+                                <li><span>500+ <i class="fas fa-check-double"></i></span>
+                                    Projects Done
+                                </li>
+                                <li><span>100% <i class="fas fa-shield-alt"></i></span>
+                                    Safe Delivery
+                                </li>
+                                <li><span>24/7 <i class="fas fa-headset"></i></span>
+                                    Support
+                                </li>
+                            </ul>
+                            <ul class="ltn__list-item-2 ltn__list-item-2-before--- ltn__list-item-2-img mb-50">
+                                <li>
+                                    <a href="img/img-slide/11.jpg" data-rel="lightcase:myCollection">
+                                        <img src="img/img-slide/11.jpg" alt="Construction Project">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="img/img-slide/12.jpg" data-rel="lightcase:myCollection">
+                                        <img src="img/img-slide/12.jpg" alt="MEP Design">
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="img/img-slide/13.jpg" data-rel="lightcase:myCollection">
+                                        <img src="img/img-slide/13.jpg" alt="Architectural Plan">
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 align-self-center d-none d-lg-block">
+                        <div class="about-us-img-wrap about-img-right">
+                            <img src="img/others/9.png" alt="Zoom-360 Engineering Excellence">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ABOUT US AREA END -->
+
+        <!-- FEATURE AREA START ( Feature - 6) -->
+        <div class="ltn__feature-area section-bg-1  pt-50 pb-20 mb-120---">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-area ltn__section-title-2--- text-center">
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color">Our Services</h6>
+                            <h1 class="section-title">Our Main Focus</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ltn__custom-gutter--- justify-content-center">
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white box-shadow-1">
+                            <div class="ltn__feature-icon">
+                                <img src="img/icons/icon-img/21.png" alt="Planning">
+                            </div>
+                            <div class="ltn__feature-info">
+                                <h3><a href="#quote">Planning & Design</a></h3>
+                                <p>We focus on creating precise 2D/3D maps and architectural designs that serve as the
+                                    solid foundation for your dream projects.</p>
+                                <a class="ltn__service-btn" href="#quote">Quote for Design <i
+                                        class="flaticon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white box-shadow-1 active">
+                            <div class="ltn__feature-icon">
+                                <img src="img/icons/icon-img/22.png" alt="Construction">
+                            </div>
+                            <div class="ltn__feature-info">
+                                <h3><a href="#quote">Smart Construction</a></h3>
+                                <p>Executing high-quality civil and mechanical construction with a focus on durability,
+                                    safety, and modern engineering standards.</p>
+                                <a class="ltn__service-btn" href="#quote">Quote for Construction <i
+                                        class="flaticon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-sm-6 col-12">
+                        <div class="ltn__feature-item ltn__feature-item-6 text-center bg-white box-shadow-1">
+                            <div class="ltn__feature-icon">
+                                <img src="img/icons/icon-img/23.png" alt="Consultancy">
+                            </div>
+                            <div class="ltn__feature-info">
+                                <h3><a href="#quote">Technical Consultancy</a></h3>
+                                <p>Providing expert advice on HVAC, Electrical, and MEP systems to optimize resources
+                                    and reduce long-term operational costs.</p>
+                                <a class="ltn__service-btn" href="#quote">Quote for Consultancy <i
+                                        class="flaticon-right-arrow"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- FEATURE AREA END -->
+
+        <!-- Request a quote start  -->
+        <section id="quote" class="ltn__appointment-area  pt-50 pb-20" style="background-color: #f7f8f9;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-area text-center">
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color"
+                                style="color: #fe5a0e; font-weight:700;">Estimate Your Project</h6>
+                            <h1 class="section-title">Request A Free Quote</h1>
+                            <p>Fill out the form below to get a detailed estimation for your construction or engineering
+                                project.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center">
+                    <div class="col-lg-10">
+                        <div class="ltn__appointment-inner p-5 bg-white shadow-lg"
+                            style="border-radius: 20px; border-top: 5px solid #fe5a0e;">
+                            <form id="kdpForm" action="getquotewithmailer.php" method="post"
+                                enctype="multipart/form-data" class="row g-4">
+
+                                <div class="col-md-6">
+                                    <label class="form-label" style="font-weight:700; color:#333;">Your Name <span
+                                            class="text-danger">*</span></label>
+                                    <input type="text" name="name" class="form-control border-0 mb-0 bg-light p-3"
+                                        placeholder="Type your name" required style="border-radius: 8px;">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label" style="font-weight:700; color:#333;">Your Email <span
+                                            class="text-danger">*</span></label>
+                                    <input type="email" name="email" class="form-control border-0 mb-0 bg-light p-3"
+                                        placeholder="Type your email" required style="border-radius: 8px;">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label" style="font-weight:700; color:#333;">Your Phone</label>
+                                    <input type="text" name="phone" class="form-control border-0 mb-0 bg-light p-3"
+                                        placeholder="+92 300 1234567" style="border-radius: 8px;">
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label" style="font-weight:700; color:#333;">Upload Site Plans /
+                                        Maps (Optional) </label>
+                                    <input type="file" name="manuscript" class="form-control border-0 mb-0 bg-light p-2"
+                                        id="manuscript" style="border-radius: 8px;">
+                                    <small class="text-muted">Allowed: pdf, jpg, png, dwg, zip, rar (Max 1GB)</small>
+                                    <div class="mt-2" id="filePreview"></div>
+                                    <div class="progress mt-2"
+                                        style="display: none; height: 10px; border-radius: 10px;">
+                                        <div class="progress-bar progress-bar-striped progress-bar-animated"
+                                            role="progressbar" style="width:0%; background-color: #fe5a0e;">0%</div>
+                                    </div>
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label" style="font-weight:700; color:#333;">Project
+                                        Interests:</label>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="form-check">
+                                                <input type="checkbox" name="interests[]" value="Architectural Design"
+                                                    class="form-check-input">
+                                                <label class="form-check-label">Architect Design</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="form-check">
+                                                <input type="checkbox" name="interests[]" value="Civil Construction"
+                                                    class="form-check-input">
+                                                <label class="form-check-label">Civil Construction</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mt-2">
+                                            <div class="form-check">
+                                                <input type="checkbox" name="interests[]" value="HVAC Solutions"
+                                                    class="form-check-input">
+                                                <label class="form-check-label">HVAC Solutions</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 mt-2">
+                                            <div class="form-check">
+                                                <input type="checkbox" name="interests[]" value="Electrical MEP"
+                                                    class="form-check-input">
+                                                <label class="form-check-label">Electrical MEP</label>
+                                            </div>
+                                        </div>
+                                    </div>
+
+
+                                </div>
+
+                                <div class="col-md-6">
+                                    <label class="form-label" style="font-weight:700; color:#333;">Project Details <span
+                                            class="text-danger">*</span></label>
+                                    <textarea class="form-control border-0 bg-light p-3" name="message" rows="6"
+                                        placeholder="Tell us about project size, location or special requests"
+                                        style="border-radius: 8px;"></textarea>
+                                </div>
+
+                                <div class="col-12 text-center mt-4">
+                                    <button type="submit" class="btn btn-effect-3 ltn__utilize-btn text-white px-5 py-3"
+                                        style="background-color: #fe5a0e;  font-weight:700; font-size:18px; transition: 0.3s;">
+                                        Get My Free Quote
+                                    </button>
+                                </div>
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="toast-container position-fixed top-0 end-0 p-3" style="z-index: 9999;"></div>
+        </section>
+
+        <script>
+            const form = document.getElementById('kdpForm');
+            const toastContainer = document.querySelector('.toast-container');
+            const fileInput = document.getElementById('manuscript');
+            const filePreview = document.getElementById('filePreview');
+            const progress = document.querySelector('.progress');
+            const progressBar = document.querySelector('.progress-bar');
+
+            const allowedExt = ['pdf', 'jpg', 'jpeg', 'png', 'doc', 'docx', 'zip', 'rar', 'dwg'];
+            const maxSize = 1000 * 1024 * 1024; // 1GB
+
+            fileInput.addEventListener('change', function () {
+                const file = fileInput.files[0];
+                filePreview.innerHTML = '';
+                if (file) {
+                    const ext = file.name.split('.').pop().toLowerCase();
+                    if (!allowedExt.includes(ext)) {
+                        showToast(false, 'File type not allowed!');
+                        fileInput.value = '';
+                        return;
+                    }
+                    if (file.size > maxSize) {
+                        showToast(false, 'File exceeds 1GB!');
+                        fileInput.value = '';
+                        return;
+                    }
+                    filePreview.innerHTML = `<span class="badge bg-success">Selected: ${file.name}</span>`;
+                }
+            });
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const formData = new FormData(form);
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', form.action, true);
+
+                xhr.upload.onprogress = function (e) {
+                    if (e.lengthComputable) {
+                        progress.style.display = 'block';
+                        const percent = Math.round((e.loaded / e.total) * 100);
+                        progressBar.style.width = percent + '%';
+                        progressBar.textContent = percent + '%';
+                    }
+                };
+
+                xhr.onload = function () {
+                    progress.style.display = 'none';
+                    try {
+                        const data = JSON.parse(this.responseText);
+                        showToast(data.success, data.message);
+                        if (data.success) form.reset();
+                        filePreview.innerHTML = '';
+                    } catch {
+                        showToast(false, 'Server connected! Processed successfully.');
+                    }
+                };
+                xhr.send(formData);
+            });
+
+            function showToast(success, message) {
+                const toastEl = document.createElement('div');
+                toastEl.className = `toast align-items-center text-bg-${success ? 'success' : 'warning'} border-0`;
+                toastEl.setAttribute('role', 'alert');
+                toastEl.innerHTML = `<div class="d-flex"><div class="toast-body">${message}</div><button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button></div>`;
+                toastContainer.appendChild(toastEl);
+                const bsToast = new bootstrap.Toast(toastEl);
+                bsToast.show();
+            }
+        </script>
+        <!-- Request a quote end  -->
+
+        <!-- VIDEO AREA START -->
+        <div class="ltn__video-popup-area ltn__video-popup-margin---">
+            <div class="ltn__video-bg-img ltn__video-popup-height-600--- bg-overlay-black-30 bg-image bg-fixed ltn__animation-pulse1"
+                data-bs-bg="img/bg/19.jpg">
+                <a class="ltn__video-icon-2 ltn__video-icon-2-border---"
+                    href="https://www.youtube.com/embed/6yBNeHbVb90?autoplay=1&amp;showinfo=0"
+                    data-rel="lightcase:myCollection">
+                    <i class="fa fa-play"></i>
+                </a>
+            </div>
+        </div>
+        <!-- VIDEO AREA END -->
+
+        <!-- our team start -->
+        <div class="ltn__team-area  pt-50 pb-20" id="team">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-area text-center mb-50">
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color"
+                                style="color: #fe5a0e; font-weight:700;">Our Professionals</h6>
+                            <h1 class="section-title">The Engineering Minds</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row justify-content-center gx-5">
+
+                    <div class="col-lg-3 col-md-6 mb-40">
+                        <div class="ltn__team-item zoom360-team-card text-center shadow-sm p-4 bg-white">
+                            <div class="team-img mb-3">
+                                <img src="img/testimonial2.jpg" class="rounded-circle" alt="Furqan Asif">
+                            </div>
+                            <div class="team-info">
+                                <h4>Kashif Hussain </h4>
+                                <h6 class="designation">General Manager</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-40">
+                        <div class="ltn__team-item zoom360-team-card text-center shadow-sm p-4 bg-white">
+                            <div class="team-img mb-3">
+                                <img src="img/testimonial3.jpg" class="rounded-circle" alt="Tanveer Ahmad">
+                            </div>
+                            <div class="team-info">
+                                <h4>Tanveer Ahmad</h4>
+                                <h6 class="designation">Lead Design Engineer</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-40">
+                        <div class="ltn__team-item zoom360-team-card text-center shadow-sm p-4 bg-white">
+                            <div class="team-img mb-3">
+                                <img src="img/testimonial4.jpg" class="rounded-circle" alt="Member">
+                            </div>
+                            <div class="team-info">
+                                <h4>Engr. Pending</h4>
+                                <h6 class="designation">Project Coordinator</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6 mb-40">
+                        <div class="ltn__team-item zoom360-team-card text-center shadow-sm p-4 bg-white">
+                            <div class="team-img mb-3">
+                                <img src="img/iftikhar.jpg" class="rounded-circle" alt="Member">
+                            </div>
+                            <div class="team-info">
+                                <h4>Engr. Pending</h4>
+                                <h6 class="designation">MEP Specialist</h6>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- our team end -->
+
+        <!-- testimonial start -->
+        <div class="ltn__testimonial-area section-bg-1--- bg-image-top  pt-50 pb-20" data-bs-bg="img/bg/20.jpg">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-area ltn__section-title-2--- text-center">
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color"
+                                style="color: #fe5a0e;">Our Testimonial</h6>
+                            <h1 class="section-title">What Our Clients Say!</h1>
+                        </div>
+                    </div>
+                </div>
+                <div class="row ltn__testimonial-slider-5-active slick-arrow-1">
+
+                    <div class="col-lg-4">
+                        <div class="ltn__testimonial-item ltn__testimonial-item-7">
+                            <div class="ltn__testimoni-info">
+                                <p>
+                                    <i class="flaticon-left-quote-1"></i>
+                                    Being an overseas Pakistani, I was worried about construction back home, but Zoom
+                                    360 Engineering delivered 100% satisfaction with their proactive coordination.
+                                </p>
+                                <div class="ltn__testimoni-info-inner">
+                                    <div class="ltn__testimoni-img">
+                                        <img src="img/iftikhar.jpg" alt="Iftikhar Ahmad">
+                                    </div>
+                                    <div class="ltn__testimoni-name-designation">
+                                        <h5>Iftikhar Ahmad</h5>
+                                        <label>RF design and Optimization Specialist - London</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="ltn__testimonial-item ltn__testimonial-item-7">
+                            <div class="ltn__testimoni-info">
+                                <p>
+                                    <i class="flaticon-left-quote-1"></i>
+                                    We highly appreciate the professionalism of Zoom 360 Engineering. They provided
+                                    excellent engineering solutions to build our future efficiently.
+                                </p>
+                                <div class="ltn__testimoni-info-inner">
+                                    <div class="ltn__testimoni-img">
+                                        <img src="img/testimonial3.jpg" alt="Sami Mustafa">
+                                    </div>
+                                    <div class="ltn__testimoni-name-designation">
+                                        <h5>Sami Mustafa</h5>
+                                        <label>Karachi</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4">
+                        <div class="ltn__testimonial-item ltn__testimonial-item-7">
+                            <div class="ltn__testimoni-info">
+                                <p>
+                                    <i class="flaticon-left-quote-1"></i>
+                                    Zoom 360 Engineering helped us optimize resources and perfectly renewed our
+                                    building. Their expert team transformed our space completely!
+                                </p>
+                                <div class="ltn__testimoni-info-inner">
+                                    <div class="ltn__testimoni-img">
+                                        <img src="img/testimonial4.jpg" alt="Qasim Raza">
+                                    </div>
+                                    <div class="ltn__testimoni-name-designation">
+                                        <h5>Qasim Raza</h5>
+                                        <label>Islamabad</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4">
+                        <div class="ltn__testimonial-item ltn__testimonial-item-7">
+                            <div class="ltn__testimoni-info">
+                                <p>
+                                    <i class="flaticon-left-quote-1"></i>
+                                    Zoom 360 Engineering expertly optimized our resources and transformed our old
+                                    building into a modern masterpiece. Truly a great team!
+                                </p>
+                                <div class="ltn__testimoni-info-inner">
+                                    <div class="ltn__testimoni-img">
+                                        <img src="img/Zoom Logo.png" alt="Sami Mustafa">
+                                    </div>
+                                    <div class="ltn__testimoni-name-designation">
+                                        <h5>Malik Saleem</h5>
+                                        <label>Bahawalpur</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- testimonial end -->
+        <!-- our map start -->
+
+        <!-- our map end -->
+        <!-- BRAND LOGO AREA START -->
+        <div class="ltn__brand-logo-area ltn__brand-logo-1 section-bg-1  pt-50 pb-20 plr--9 d-none">
+            <div class="container-fluid">
+                <div class="row ltn__brand-logo-active">
+                    <div class="col-lg-12">
+                        <div class="ltn__brand-logo-item">
+                            <img src="img/brand-logo/1.png" alt="Brand Logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="ltn__brand-logo-item">
+                            <img src="img/brand-logo/2.png" alt="Brand Logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="ltn__brand-logo-item">
+                            <img src="img/brand-logo/3.png" alt="Brand Logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="ltn__brand-logo-item">
+                            <img src="img/brand-logo/4.png" alt="Brand Logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="ltn__brand-logo-item">
+                            <img src="img/brand-logo/5.png" alt="Brand Logo">
+                        </div>
+                    </div>
+                    <div class="col-lg-12">
+                        <div class="ltn__brand-logo-item">
+                            <img src="img/brand-logo/3.png" alt="Brand Logo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- BRAND LOGO AREA END -->
+
+        <!-- Faq and Feedback form start -->
+        <section id="faq" class="ltn__faq-contact-area  pt-50 pb-20" style="background-color: #f7f8f9;">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-6 mb-50">
+                        <div class="section-title-area">
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color"
+                                style="color: #fe5a0e;">Common Questions</h6>
+                            <h1 class="section-title">Expert FAQ's</h1>
+                            <p>Find quick answers to common queries about our engineering and design services.</p>
+                        </div>
+
+                        <div class="ltn__faq-inner ltn__faq-inner-2">
+                            <div id="accordion_2">
+                                <div class="card shadow-sm mb-3 border-0" style="border-radius: 8px;">
+                                    <h6 class="ltn__card-title" data-bs-toggle="collapse" data-bs-target="#faq_item_1"
+                                        aria-expanded="true" style="padding: 20px; cursor: pointer; font-weight: 700;">
+                                        What engineering services do you provide?
+                                    </h6>
+                                    <div id="faq_item_1" class="collapse show" data-bs-parent="#accordion_2">
+                                        <div class="card-body" style="padding: 0 20px 20px;">
+                                            <p>We provide comprehensive MEP (Mechanical, Electrical, Plumbing) design,
+                                                HVAC systems, Fire Fighting, and complete Structural Engineering
+                                                solutions for residential and commercial projects.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card shadow-sm mb-3 border-0" style="border-radius: 8px;">
+                                    <h6 class="ltn__card-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#faq_item_2" aria-expanded="false"
+                                        style="padding: 20px; cursor: pointer; font-weight: 700;">
+                                        Do you provide services for overseas Pakistanis?
+                                    </h6>
+                                    <div id="faq_item_2" class="collapse" data-bs-parent="#accordion_2">
+                                        <div class="card-body" style="padding: 0 20px 20px;">
+                                            <p>Yes, we specialize in coordinating with overseas clients. We provide 3D
+                                                designs, regular updates, and online consultation to ensure your project
+                                                at home is handled professionally.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card shadow-sm mb-3 border-0" style="border-radius: 8px;">
+                                    <h6 class="ltn__card-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#faq_item_3" aria-expanded="false"
+                                        style="padding: 20px; cursor: pointer; font-weight: 700;">
+                                        What is the typical project timeline?
+                                    </h6>
+                                    <div id="faq_item_3" class="collapse" data-bs-parent="#accordion_2">
+                                        <div class="card-body" style="padding: 0 20px 20px;">
+                                            <p>Project timelines depend on the scope. Initial design drafts are usually
+                                                delivered within 7-10 business days, while detailed MEP layouts may take
+                                                longer depending on complexity.</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="card shadow-sm mb-3 border-0" style="border-radius: 8px;">
+                                    <h6 class="ltn__card-title collapsed" data-bs-toggle="collapse"
+                                        data-bs-target="#faq_item_4" aria-expanded="false"
+                                        style="padding: 20px; cursor: pointer; font-weight: 700;">
+                                        Do you offer energy-efficient and sustainable designs?
+                                    </h6>
+                                    <div id="faq_item_4" class="collapse" data-bs-parent="#accordion_2">
+                                        <div class="card-body" style="padding: 0 20px 20px;">
+                                            <p>Absolutely. We prioritize sustainable engineering practices, including
+                                                energy-efficient HVAC systems and solar-ready electrical designs to
+                                                reduce long-term operational costs for your building.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="ltn__contact-address-form-area mb-50 shadow p-5 bg-white"
+                            style="border-radius: 15px; border-top: 5px solid #fe5a0e;">
+                            <div class="section-title-area">
+                                <h2 class="section-title text-center" style="font-size: 28px;">Feedback Form</h2>
+                                <p>Have a project in mind? Let's build something great together.</p>
+                            </div>
+
+                            <form id="contact-form" action="contactformmailer.php" method="post">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="input-item input-item-name">
+                                            <input type="text" name="name" placeholder="Enter your name" required
+                                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 20px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="input-item input-item-email">
+                                            <input type="email" name="email" placeholder="Enter email address" required
+                                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 20px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-item">
+                                            <input type="text" name="contact" placeholder="Phone Number" required
+                                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 20px;">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="input-item">
+                                            <textarea name="message"
+                                                placeholder="Describe your project or share feedback..." rows="4"
+                                                style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 5px; margin-bottom: 20px;"></textarea>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="btn-wrapper mt-0 text-center">
+                                    <button class="btn  btn-effect-3 text-uppercase" type="submit"
+                                        style="background-color: #fe5a0e; color: #ffffff; border: none; padding: 15px 40px; font-weight: 700; border-radius: 5px; cursor: pointer; transition: 0.3s;">
+                                        Send Message
+                                    </button>
+                                </div>
+                                <p class="form-messege mb-0 mt-20"></p>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <!-- Faq and Feedback form end -->
+
+        <!-- coantact start-->
+        <div class="ltn__contact-address-area pt-50 pb-20">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="section-title-area ltn__section-title-2--- text-center">
+                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color"
+                                style="color: #fe5a0e;">Our Location</h6>
+                            <h1 class="section-title">Get In Touch!</h1>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="zoom-premium-card">
+                            <div class="card-icon-circle">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                                </svg>
+                            </div>
+                            <h3>Email Address</h3>
+                            <p>
+                                <a href="mailto:info@zoom-360-engineering.com">
+                                    <!-- <svg class="small-svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg> -->
+                                    info@zoom-360-engineering.com
+                                </a><br>
+                                <a href="mailto:support@zoom-360-engineering.com">
+                                    <!-- <svg class="small-svg" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"/></svg> -->
+                                    support@zoom-360-engineering.com
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="zoom-premium-card">
+                            <div class="card-icon-circle">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" />
+                                </svg>
+                            </div>
+                            <h3>Phone & WhatsApp</h3>
+                            <p>
+                                <a href="tel:00923260078800">
+                                    <!-- <svg class="small-svg" viewBox="0 0 24 24"><path d="M20 2H4c-1.1 0-1.99.9-1.99 2L2 22l4-4h14c1.1 0 2-.9 2-2V4c0-1.1-.9-2-2-2z"/></svg> -->
+                                    +92 326 007 88 00
+                                </a><br>
+                                <strong>Timing:</strong> 8:00am – 5:00pm
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 mb-30">
+                        <div class="zoom-premium-card">
+                            <div class="card-icon-circle">
+                                <svg viewBox="0 0 24 24">
+                                    <path
+                                        d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" />
+                                </svg>
+                            </div>
+                            <h3>Office Address</h3>
+                            <p>
+                                69,70 F Fatima Commercial Center,<br>
+                                Airport road, Bahawalpur, Pakistan
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class=" container google-map " id="location">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m13!1m8!1m3!1d346.37571653424834!2d71.693271!3d29.360317!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjnCsDIxJzM3LjIiTiA3McKwNDEnMzYuNiJF!5e1!3m2!1sen!2sus!4v1767537242966!5m2!1sen!2sus"
+                width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+        <!-- CALL TO ACTION END -->
+
+        <footer id="footer" class="footer light-background"
+            style="padding-top: 60px; border-top: 1px solid #eee; background-color: #F2F6F7">
+
+            <div class="container footer-top">
+                <div class="row gy-4">
+
+                    <div class="col-lg-4 col-12 col-md-6 footer-about">
+                        <div class="site-logo-wrap">
+                            <div class="site-logo">
+                                <a href="index.html"><img style="height: 60px;" src="img/Zoom Logo.png" alt="Logo"></a>
+                            </div>
+                            <div class="get-support clearfix mt-1">
+                                <div class="get-support-info">
+                                    <a href="index.html">
+                                        <h4 class="text-dark">ZOOM-360</h4>
+                                        <h5 class="text-dark">Engineering</h5>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <p class="mb-1"> Expert engineering solutions specializing in MEP, HVAC, and Structural Design.
+                            Delivering
+                            excellence through innovation and precision.</p>
+                        <div class="footer-contact">
+                            <p class="mb-2 d-flex align-items-center">
+                                <i class="fas fa-phone-alt me-3" style="color: #fe5a0e;"></i>
+                                <a href="tel:+923260078800" style="text-decoration: none; color: inherit;">+92 326 007
+                                    88 00</a>
+                            </p>
+                            <p class="mb-0 d-flex align-items-center">
+                                <i class="fas fa-envelope me-3" style="color: #fe5a0e;"></i>
+                                <a href="mailto:info@zoom-360-engineering.com"
+                                    style="text-decoration: none; color: inherit;">info@zoom-360-engineering.com</a>
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-2 col-6 col-md-3 footer-links">
+                        <h4>Useful Links</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="#about">About Us</a></li>
+                            <li><a href="#services">Services</a></li>
+                            <li><a href="#team">Team</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-6 col-md-3 footer-links">
+                        <h4>Our Services</h4>
+                        <ul class="list-unstyled">
+
+                            <li>
+                                <a href="#services" onclick="activateTab('tab_civil')">Civil & Structural</a>
+                            </li>
+                            <li>
+                                <a href="#services" onclick="activateTab('tab_elec')">Solar & Electrical</a>
+                            </li>
+                            <li>
+                                <a href="#services" onclick="activateTab('tab_hvac')">MEP & HVAC Design</a>
+                            </li>
+                            <li>
+                                <a href="#services" onclick="activateTab('tab_arch')">Architectural Solution</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-6 col-md-3 footer-links">
+                        <h4>Support</h4>
+                        <ul class="list-unstyled">
+                            <li><a href="#faq">FAQ</a></li>
+                            <li><a href="#quote">Get a Quote</a></li>
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-2 col-6 col-md-3 footer-links">
+                        <h4 class="">Banks on board</h4>
+                        <div class="payment-icons mb-3 text-center">
+                            <img height="60px" src="img/bank_al_habib_logo.png" alt="Payment Methods"
+                                style="max-width: 100%;">
+                        </div>
+                        <div class="payment-icons mb-3 text-center">
+                            <img height="60px" src="img/bank_alflah_logo.png" alt="Payment Methods"
+                                style="max-width: 100%;">
+                        </div>
+                        <div class="payment-icons mb-3 text-center">
+                            <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="me-3"><i class="fab fa-linkedin"></i></a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="bg-secondry" style="border-top: 1px solid rgba(255,255,255,0.1); background-color: #191816;"
+                class="bg-black text-white">
+                <div class="container" style="border-top: 1px solid rgba(255,255,255,0.1); "
+                    class="bg-black text-white">
+                    <div class="row justify-content-between copyright py-4 align-items-center">
+                        <div class="col-md-6">
+                            <p class="text-center text-md-start mb-0 text-white" style="font-size: 14px; opacity: 0.8;">
+                                © <span id="currentYear"></span>
+                                <strong class="px-1 sitename"
+                                    style="text-transform: uppercase; color: #fe5a0e;">zoom-360-engineering</strong>
+                                <span>| All Rights Reserved</span>
+                            </p>
+                        </div>
+                        <div class="col-md-6 text-center text-md-end">
+                            <div class="credits text-white" style="font-size: 14px; opacity: 0.8;">
+                                Designed with ❤️ by
+                                <a href="#"
+                                    style="color: #fe5a0e; font-weight: 700; text-decoration: none; transition: 0.3s;">Tanveer
+                                    Ahmad</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <a href="https://wa.me/923260078800?text=Hi%20Zoom-360-Engineering" class="float-btn whatsapp-btn"
+                target="_blank" title="Chat on WhatsApp">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                    <path
+                        d="M13.601 2.326A7.85 7.85 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.9 7.9 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.9 7.9 0 0 0 13.6 2.326zM7.994 14.521a6.6 6.6 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.56 6.56 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592m3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.73.73 0 0 0-.529.247c-.182.198-.691.677-.691 1.654s.71 1.916.81 2.049c.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232" />
+                </svg>
+            </a>
+
+            <button id="back-to-top" class="float-btn" title="Go to Top">
+                <svg viewBox="0 0 24 24">
+                    <path d="M7.41 15.41L12 10.83l4.59 4.58L18 14l-6-6-6 6z" />
+                </svg>
+            </button>
+            <script>
+                // Auto-update year logic
+                document.getElementById('currentYear').textContent = new Date().getFullYear();
+            </script>
+
+        </footer>
+    </div>
+    <!-- Body main wrapper end -->
+
+    <!-- preloader area start -->
+    <div class="preloader d-none" id="preloader">
+        <div class="preloader-inner">
+            <div class="spinner">
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+            </div>
+        </div>
+    </div>
+    <!-- preloader area end -->
+
+    <!-- All JS Plugins -->
+    <script src="js/plugins.js"></script>
+    <!-- Main JS -->
+    <script src="js/main.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('#trusted-partner-slider').slick({
+                slidesToShow: 5,        // Ek waqt mein 5 logo dikhen ge
+                slidesToScroll: 1,
+                autoplay: true,         // Khud chalega
+                autoplaySpeed: 0,       // Ruke ga nahi (Continuous)
+                speed: 5000,            // Speed (5000ms yani boht slow aur smooth)
+                cssEase: 'linear',      // Jhatka nahi marega, smooth chalega
+                infinite: true,         // Khatam nahi hoga
+                arrows: false,          // Buttons nahi chahiyen
+                dots: false,            // Niche dots bhi nahi chahiyen
+                responsive: [
+                    {
+                        breakpoint: 992,
+                        settings: { slidesToShow: 3 }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: { slidesToShow: 2 }
+                    }
+                ]
+            });
+        });
+    </script>
+
+    <script>
+        function activateTab(tabId) {
+            // 1. Pehle us tab button ko dhoondein jo content ke upar hain
+            var targetTabLink = document.querySelector(`.nav a[href="#${tabId}"]`);
+
+            if (targetTabLink) {
+                // 2. Bootstrap ka built-in tab 'show' method use karein
+                var tab = new bootstrap.Tab(targetTabLink);
+                tab.show();
+
+                // 3. Smooth scroll to the section
+                document.getElementById('services').scrollIntoView({
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Agar user kisi dusre page se direct link ke zariye aata hai (e.g. index.php#tab_civil)
+        window.addEventListener('DOMContentLoaded', (event) => {
+            const hash = window.location.hash;
+            if (hash && hash.startsWith('#tab_')) {
+                const cleanId = hash.replace('#', '');
+                activateTab(cleanId);
+            }
+        });
+    </script>
+
+
+    <script>
+        // Scroll detection logic
+        const btnToTop = document.getElementById("back-to-top");
+
+        window.addEventListener("scroll", function () {
+            if (window.pageYOffset > 300) {
+                btnToTop.classList.add("show");
+            } else {
+                btnToTop.classList.remove("show");
+            }
+        });
+
+        // Smooth scroll to top
+        btnToTop.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+</body>
+
+<!-- Mirrored from tunatheme.com/tf/html/quarter-preview/quarter/index-5.html by HTTrack Website Copier/3.x [XR&CO'2014], Sat, 03 Jan 2026 21:54:15 GMT -->
+
+</html>
