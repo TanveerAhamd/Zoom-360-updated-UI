@@ -1179,13 +1179,13 @@
         <!-- FEATURE AREA END -->
 
         <!-- Request a quote start  -->
-        <section id="quote" class="ltn__appointment-area  pt-50 pb-20" style="background-color: #f7f8f9;">
+        <section id="quote" class="ltn__appointment-area pt-50 pb-20" style="background-color: #f7f8f9;">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="section-title-area text-center">
-                            <h6 class="section-subtitle section-subtitle-2 ltn__secondary-color"
-                                style="color: #fe5a0e; font-weight:700;">Estimate Your Project</h6>
+                            <h6 class="section-subtitle section-subtitle-2" style="color: #fe5a0e; font-weight:700;">
+                                Estimate Your Project</h6>
                             <h1 class="section-title">Request A Free Quote</h1>
                             <p>Fill out the form below to get a detailed estimation for your construction or engineering
                                 project.</p>
@@ -1197,35 +1197,36 @@
                     <div class="col-lg-10">
                         <div class="ltn__appointment-inner p-5 bg-white shadow-lg"
                             style="border-radius: 20px; border-top: 5px solid #fe5a0e;">
-                            <form id="kdpForm" action="getquotewithmailer.php" method="post"
+                            <form id="zoomQuoteForm" action="getquotewithmailer.php" method="post"
                                 enctype="multipart/form-data" class="row g-4">
 
                                 <div class="col-md-6">
-                                    <label class="form-label" style="font-weight:700; color:#333;">Your Name <span
+                                    <label class="form-label" style="font-weight:700; color:#333;">Full Name <span
                                             class="text-danger">*</span></label>
                                     <input type="text" name="name" class="form-control border-0 mb-0 bg-light p-3"
-                                        placeholder="Type your name" required style="border-radius: 8px;">
+                                        placeholder="Enter your name" required style="border-radius: 8px;">
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="form-label" style="font-weight:700; color:#333;">Your Email <span
+                                    <label class="form-label" style="font-weight:700; color:#333;">Email Address <span
                                             class="text-danger">*</span></label>
                                     <input type="email" name="email" class="form-control border-0 mb-0 bg-light p-3"
-                                        placeholder="Type your email" required style="border-radius: 8px;">
+                                        placeholder="email@example.com" required style="border-radius: 8px;">
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="form-label" style="font-weight:700; color:#333;">Your Phone</label>
+                                    <label class="form-label" style="font-weight:700; color:#333;">Phone / WhatsApp
+                                        <span class="text-danger">*</span></label>
                                     <input type="text" name="phone" class="form-control border-0 mb-0 bg-light p-3"
-                                        placeholder="+92 300 1234567" style="border-radius: 8px;">
+                                        placeholder="+92 326 0078800" required style="border-radius: 8px;">
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="form-label" style="font-weight:700; color:#333;">Upload Site Plans /
-                                        Maps (Optional) </label>
+                                    <label class="form-label" style="font-weight:700; color:#333;">Upload Site Plans
+                                        (Optional)</label>
                                     <input type="file" name="manuscript" class="form-control border-0 mb-0 bg-light p-2"
                                         id="manuscript" style="border-radius: 8px;">
-                                    <small class="text-muted">Allowed: pdf, jpg, png, dwg, zip, rar (Max 1GB)</small>
+                                    <small class="text-muted">Max: 1GB (PDF, JPG, DWG, ZIP)</small>
                                     <div class="mt-2" id="filePreview"></div>
                                     <div class="progress mt-2"
                                         style="display: none; height: 10px; border-radius: 10px;">
@@ -1235,57 +1236,45 @@
                                 </div>
 
                                 <div class="col-md-6">
-                                    <label class="form-label" style="font-weight:700; color:#333;">Project
-                                        Interests:</label>
+                                    <label class="form-label" style="font-weight:700; color:#333;">Our Services:</label>
                                     <div class="row">
                                         <div class="col-6">
-                                            <div class="form-check">
-                                                <input type="checkbox" name="interests[]" value="Architectural Design"
-                                                    class="form-check-input">
-                                                <label class="form-check-label">Architect Design</label>
-                                            </div>
+                                            <div class="form-check"><input type="checkbox" name="interests[]"
+                                                    value="Architectural Design" class="form-check-input"><label
+                                                    class="form-check-label">Architectural Design</label></div>
                                         </div>
                                         <div class="col-6">
-                                            <div class="form-check">
-                                                <input type="checkbox" name="interests[]" value="Civil Construction"
-                                                    class="form-check-input">
-                                                <label class="form-check-label">Civil Construction</label>
-                                            </div>
+                                            <div class="form-check"><input type="checkbox" name="interests[]"
+                                                    value="Civil Construction" class="form-check-input"><label
+                                                    class="form-check-label">Civil Construction</label></div>
                                         </div>
                                         <div class="col-6 mt-2">
-                                            <div class="form-check">
-                                                <input type="checkbox" name="interests[]" value="HVAC Solutions"
-                                                    class="form-check-input">
-                                                <label class="form-check-label">HVAC Solutions</label>
-                                            </div>
+                                            <div class="form-check"><input type="checkbox" name="interests[]"
+                                                    value="HVAC Solutions" class="form-check-input"><label
+                                                    class="form-check-label">HVAC Solutions</label></div>
                                         </div>
                                         <div class="col-6 mt-2">
-                                            <div class="form-check">
-                                                <input type="checkbox" name="interests[]" value="Electrical MEP"
-                                                    class="form-check-input">
-                                                <label class="form-check-label">Electrical MEP</label>
-                                            </div>
+                                            <div class="form-check"><input type="checkbox" name="interests[]"
+                                                    value="Electrical MEP" class="form-check-input"><label
+                                                    class="form-check-label">Electrical MEP</label></div>
                                         </div>
                                     </div>
-
-
                                 </div>
 
                                 <div class="col-md-6">
                                     <label class="form-label" style="font-weight:700; color:#333;">Project Details <span
                                             class="text-danger">*</span></label>
-                                    <textarea class="form-control border-0 bg-light p-3" name="message" rows="6"
-                                        placeholder="Tell us about project size, location or special requests"
+                                    <textarea class="form-control border-0 bg-light p-3" name="message" rows="4"
+                                        placeholder="Briefly describe your project..." required
                                         style="border-radius: 8px;"></textarea>
                                 </div>
 
                                 <div class="col-12 text-center mt-4">
-                                    <button type="submit" class="btn btn-effect-3 ltn__utilize-btn text-white px-5 py-3"
-                                        style="background-color: #fe5a0e;  font-weight:700; font-size:18px; transition: 0.3s;">
+                                    <button type="submit" class="btn btn-effect-3 text-white px-5 py-3"
+                                        style="background-color: #fe5a0e; font-weight:700; font-size:18px; border-radius: 50px;">
                                         Get My Free Quote
                                     </button>
                                 </div>
-
                             </form>
                         </div>
                     </div>
@@ -1295,6 +1284,69 @@
         </section>
 
         <script>
+            const form = document.getElementById('zoomQuoteForm');
+            const toastContainer = document.querySelector('.toast-container');
+            const fileInput = document.getElementById('manuscript');
+            const filePreview = document.getElementById('filePreview');
+            const progress = document.querySelector('.progress');
+            const progressBar = document.querySelector('.progress-bar');
+
+            fileInput.addEventListener('change', function () {
+                const file = fileInput.files[0];
+                filePreview.innerHTML = '';
+                if (file) {
+                    const ext = file.name.split('.').pop().toLowerCase();
+                    const allowed = ['pdf', 'jpg', 'jpeg', 'png', 'dwg', 'zip', 'rar'];
+                    if (!allowed.includes(ext)) {
+                        showToast(false, 'File type not supported!');
+                        fileInput.value = '';
+                        return;
+                    }
+                    filePreview.innerHTML = `<span class="badge bg-success">Selected: ${file.name}</span>`;
+                }
+            });
+
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const formData = new FormData(form);
+                const xhr = new XMLHttpRequest();
+                xhr.open('POST', form.action, true);
+
+                xhr.upload.onprogress = function (e) {
+                    if (e.lengthComputable) {
+                        progress.style.display = 'block';
+                        const percent = Math.round((e.loaded / e.total) * 100);
+                        progressBar.style.width = percent + '%';
+                        progressBar.textContent = percent + '%';
+                    }
+                };
+
+                xhr.onload = function () {
+                    progress.style.display = 'none';
+                    try {
+                        const data = JSON.parse(this.responseText);
+                        showToast(data.success, data.message);
+                        if (data.success) form.reset();
+                        filePreview.innerHTML = '';
+                    } catch {
+                        showToast(false, 'Server connected! Submission processed.');
+                    }
+                };
+                xhr.send(formData);
+            });
+
+            function showToast(success, message) {
+                const toastEl = document.createElement('div');
+                toastEl.className = `toast align-items-center text-bg-${success ? 'success' : 'danger'} border-0 mb-2`;
+                toastEl.setAttribute('role', 'alert');
+                toastEl.innerHTML = `<div class="d-flex"><div class="toast-body">${message}</div><button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast"></button></div>`;
+                toastContainer.appendChild(toastEl);
+                const bsToast = new bootstrap.Toast(toastEl);
+                bsToast.show();
+            }
+        </script>
+
+        <!-- <script>
             const form = document.getElementById('kdpForm');
             const toastContainer = document.querySelector('.toast-container');
             const fileInput = document.getElementById('manuscript');
@@ -1362,7 +1414,7 @@
                 const bsToast = new bootstrap.Toast(toastEl);
                 bsToast.show();
             }
-        </script>
+        </script> -->
         <!-- Request a quote end  -->
 
         <!-- VIDEO AREA START -->
